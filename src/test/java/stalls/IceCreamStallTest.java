@@ -11,17 +11,17 @@ public class IceCreamStallTest {
 
     @Before
     public void setUp() throws Exception {
-        iceCreamStall = new IceCreamStall("Dream Cones", "Vanilla Ice", ParkingSpot.A4);
+        iceCreamStall = new IceCreamStall("Charlie's", "Vanilla Dream", ParkingSpot.A4);
     }
 
     @Test
     public void hasName() {
-        assertEquals("Dream Cones", iceCreamStall.getName());
+        assertEquals("DCharlie's", iceCreamStall.getName());
     }
 
     @Test
     public void hasOwner() {
-        assertEquals("Vanilla Ice", iceCreamStall.getOwnerName());
+        assertEquals("Vanilla Dream", iceCreamStall.getOwnerName());
     }
 
     @Test
